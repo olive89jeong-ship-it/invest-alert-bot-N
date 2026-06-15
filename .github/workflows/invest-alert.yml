@@ -1,11 +1,13 @@
-name: Invest Alert Bot
+name: Invest Alert Bot - Theme Radar
 
 on:
   workflow_dispatch:
   schedule:
-    # UTC 기준 23:00 = 한국시간 08:00
-    # 월~토 오전 8시쯤 실행
+    # UTC 23:00 = 한국시간 08:00
     - cron: "0 23 * * 0-5"
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   run-alert:
@@ -31,6 +33,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run invest alert bot
+      - name: Run theme radar bot
         run: |
           python main.py
