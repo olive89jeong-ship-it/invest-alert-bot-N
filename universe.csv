@@ -1,10 +1,10 @@
-ticker,name,category,theme,news_query,enabled
-GRID,First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF,ETF,스마트그리드,smart grid infrastructure ETF power grid,1
-PAVE,Global X U.S. Infrastructure Development ETF,ETF,미국 인프라,U.S. infrastructure ETF power grid,1
-IFRA,iShares U.S. Infrastructure ETF,ETF,미국 인프라,U.S. infrastructure development ETF electricity grid,1
-ETN,Eaton,Stock,전력기기,Eaton power management electrical equipment,1
-GEV,GE Vernova,Stock,전력망·발전,GE Vernova grid power electrification,1
-PWR,Quanta Services,Stock,송전망 시공,Quanta Services transmission grid infrastructure,1
-NGG,National Grid ADR,Stock,전력망 운영,National Grid electricity transmission investment,1
-486450.KS,SOL 미국AI전력인프라,KR ETF,AI전력인프라,SOL 미국AI전력인프라 AI 전력 인프라 ETF,1
-487240.KS,KODEX AI전력핵심설비,KR ETF,국내 전력설비,KODEX AI전력핵심설비 전력설비 ETF,1
+theme_id,theme_name,ticker,name,category,role,plain_explain,news_query,enabled
+ai_power,AI 전력 인프라,486450.KS,SOL 미국AI전력인프라,KR ETF,국내상장 ETF,AI 데이터센터 전력 수요 증가에 따른 미국 전력 인프라 테마 ETF,AI 전력 인프라 데이터센터 전력수요 ETF,1
+ai_power,AI 전력 인프라,487240.KS,KODEX AI전력핵심설비,KR ETF,국내상장 ETF,국내 전력설비 기업에 투자하는 AI 전력 수혜 ETF,KODEX AI전력핵심설비 전력설비 ETF,1
+smart_grid,전력망·스마트그리드,GRID,First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF,ETF,대표 ETF,스마트그리드·전력망·전력 인프라 기업에 투자하는 미국상장 ETF,smart grid infrastructure ETF power grid investment,1
+us_infra,미국 인프라,PAVE,Global X U.S. Infrastructure Development ETF,ETF,대표 ETF,미국 인프라 건설·장비·소재 기업에 투자하는 ETF,U.S. infrastructure development ETF construction materials equipment,1
+us_infra,미국 인프라,IFRA,iShares U.S. Infrastructure ETF,ETF,대표 ETF,미국 인프라 보유·운영 기업과 수혜 기업에 투자하는 ETF,U.S. infrastructure ETF utilities transportation energy infrastructure,1
+power_equipment,전력기기,ETN,Eaton,Stock,대표 종목,전력관리·전기장비 기업으로 AI 전력 인프라 수요와 연결,Eaton power management electrical equipment data center,1
+power_equipment,전력기기,GEV,GE Vernova,Stock,대표 종목,전력·그리드·발전 설비 기업으로 전력망 투자와 연결,GE Vernova grid power electrification,1
+transmission,송전망 시공,PWR,Quanta Services,Stock,대표 종목,송전망·전력 인프라 공사와 유지보수 기업,Quanta Services transmission grid infrastructure,1
+grid_operator,전력망 운영,NGG,National Grid ADR,Stock,대표 종목,영국 전력망 운영사의 미국 ADR,National Grid electricity transmission investment,1
